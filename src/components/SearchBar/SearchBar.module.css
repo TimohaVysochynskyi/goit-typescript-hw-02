@@ -1,0 +1,29 @@
+.form {
+    background-color: #efefef;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    width: 300px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    outline: 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item {
+    width: 300px;
+    height: 350px;
+    background-color: #efefef;
+    box-shadow: 0px 0px 6px #dfdfdf;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 8px #efefef;
+    transform: scale(1.01);
+}
